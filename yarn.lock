@@ -1017,6 +1017,20 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
+"@bird-studio/interactive-message@1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-1.0.0.tgz#3068a2ad13c5b568733a2df128367d1f11be1113"
+  integrity sha512-+3grXyDpoMh/nQ0A3SYerwDH61L5DdcCzbubb2C10Cz+t+0Iugn5w+Iz51Ng1qPthVAKmS0F4wXzUkdoYW1ABA==
+  dependencies:
+    "@octokit/rest" "18.12.0"
+    cac "6.7.11"
+    chalk "4.1.2"
+    cosmiconfig "7.0.1"
+    gitmojis "3.6.0"
+    inquirer "8.2.0"
+    inquirer-search-list "1.2.6"
+    table "6.7.2"
+
 "@cspotcode/source-map-consumer@0.8.0":
   version "0.8.0"
   resolved "https://registry.npmjs.org/@cspotcode/source-map-consumer/-/source-map-consumer-0.8.0.tgz"
