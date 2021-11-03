@@ -34,7 +34,7 @@ touch interactive-message.config.js
 
 example
 
-https://github.com/bird-studio/interactive-message/blob/main/interactive-message.config.js
+https://github.com/bird-studio/interactive-message/blob/main/example.config.js
 
 The part that matches `questionDictionary.name` will be replaced.  
 Change the templates and questions as you like.  
