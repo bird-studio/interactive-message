@@ -1,0 +1,1 @@
+export { commitMsg } from "./commit";

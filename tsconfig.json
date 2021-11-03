@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "CommonJS",
+
+    "declaration": true,
+    "importHelpers": true,
+
+    "strict": true,
+    "importsNotUsedAsValues": "error",
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "noUncheckedIndexedAccess": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    "rootDir": "src",
+    "outDir": "lib",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["./*"]
+    }
+  }
+}
