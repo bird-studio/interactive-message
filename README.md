@@ -12,6 +12,12 @@
   </a>
 </p>
 
+<p>
+  <a href="https://github.com/bird-studio/interactive-message">
+    <img src="https://github.com/bird-studio/interactive-message/blob/main/media/logo.png"/>
+  </a>
+</p>
+
 ## Overview
 
 Create messages in an interactive format.
