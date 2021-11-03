@@ -1,6 +1,6 @@
 "use strict";
 
-const { appConfig } = require("./app.config");
+const { commitConfig } = require("@bird-studio/js-config");
 const { plugin } = require("@bird-studio/interactive-message");
 
 const notSelected = { description: "_NotSelected_", value: "" };
@@ -47,7 +47,7 @@ BREAKING CHANGE: {{breakingChange}}`,
       type: "search-list",
       message: "Please select a type.",
       getChoices: () =>
-        appConfig.map((v) => ({
+        commitConfig.map((v) => ({
           value: v.value,
           description: `${v.value}: (${v.release ? v.release : "no release"}) ${
             v.description
