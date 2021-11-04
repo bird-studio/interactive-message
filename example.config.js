@@ -4,42 +4,35 @@ const commitConfig = [
   {
     value: "feat",
     description: "Introducing new features",
-    release: "minor",
   },
-  { value: "fix", description: "Fixing a bug", release: "patch" },
+  { value: "fix", description: "Fixing a bug" },
   {
     value: "refactor",
     description: "Refactoring code (Not Introducing features or fix)",
-    release: "patch",
   },
-  { value: "docs", description: "add documents", release: false },
+  { value: "docs", description: "add documents" },
   {
     value: "test",
     description: "Adding unit tests or e2e test",
-    release: false,
   },
-  { value: "perf", description: "Improving performance", release: "patch" },
+  { value: "perf", description: "Improving performance" },
   {
     value: "style",
     description: "Updating the UI and style files",
-    release: "patch",
   },
-  { value: "build", description: "build artifacts", release: false },
+  { value: "build", description: "build artifacts" },
   {
     value: "ci",
     description: "working about CI build system",
-    release: false,
   },
-  { value: "wip", description: "Work in progress", release: false },
+  { value: "wip", description: "Work in progress" },
   {
     value: "chore",
     description: "Work with configuration or other stuff",
-    release: false,
   },
   {
     value: "tweak",
     description: "Fine tune it",
-    release: "patch",
   },
 ];
 
