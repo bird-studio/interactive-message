@@ -47,7 +47,7 @@ This setting is Conventional Commit and gitmoji.
 ```bash
 #!/bin/sh
 
-exec < /dev/tty && yarn interactive-message commit --hook
+exec < /dev/tty && yarn interactive-message commit
 ```
 
 ```bash
@@ -70,5 +70,5 @@ git -c my.interactive=yes commit
 #!/bin/sh
 . "$(dirname "$0")/_/husky.sh"
 
-exec < /dev/tty && npx interactive-message commit --hook
+exec < /dev/tty && npx interactive-message commit
 ```
