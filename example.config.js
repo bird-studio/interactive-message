@@ -56,6 +56,7 @@ const fetchMyIssues = () =>
     .then((r) =>
       r.data
         .filter((v) => !v.pull_request)
+        .filter((v) => v.assignees.find((a) => a.login === "akira-toriyama"))
         .map((issue) => ({
           description: `#${issue.number}: ${issue.title}`,
           value: `${issue.number}`,
