@@ -1,11 +1,39 @@
 {
-  "extends": "@bird-studio/js-config/tsConfig/node/tsconfig.base.json",
+  "extends": "@bird-studio/js-config/tsConfig/tsconfig.base.json",
   "compilerOptions": {
     "rootDir": "src",
     "outDir": "lib",
     "baseUrl": "src",
     "paths": {
       "~/*": ["./*"]
-    }
+    },
+    /**
+     * モジュールパターンの設定
+     * JavaScriptにはいくつかのモジュールパターン（CommonJSやAMD、ECMAScriptなど）がある。
+     *
+     * webpackやRollupなどの中でTypeScriptを扱っているなら、module: "ESNext" にしておくことでTree Shakingなどの最適化ができるという仕組み。
+     * https://gist.github.com/azu/56a0411d69e2fc333d545bfe57933d07
+     */
+    "module": "CommonJS",
+
+    /**
+     * transpile の設定
+     * targetはどの動作環境に向けてトランスパイルするかを指定する。
+     * esnextとして出力し、Babel側で任意の環境に向けたコードにトランスパイルするのが一般的。
+     */
+    "target": "ESNext",
+
+    // 型定義ファイル(.d.ts)を作成する。
+    "declaration": true,
+
+    /**
+     * Class の継承、配列やオブジェクトのスプレッド構文、async の処理など、特定のダウンレベル処理に対して、TypeScript はヘルパーコードを利用します。
+     *
+     * https://www.typescriptlang.org/ja/tsconfig#importHelpers
+     */
+    "importHelpers": true,
+
+    // *.d.ts ファイルに対する型チェックをスキップする
+    "skipLibCheck": true
   }
 }
