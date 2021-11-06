@@ -1031,10 +1031,10 @@
     inquirer-search-list "1.2.6"
     table "6.7.2"
 
-"@bird-studio/js-config@1.8.1":
-  version "1.8.1"
-  resolved "https://registry.yarnpkg.com/@bird-studio/js-config/-/js-config-1.8.1.tgz#de31ef00f15b1bcc3d4dba1fe5701eca34643cb6"
-  integrity sha512-rFPRf7RrYIIu166RUXWkm8umoVC37TEJw5Au4tfipYKK76JhWOu3+Y31bsl3vyufCO+JKqxjytm97EBAUmaf9g==
+"@bird-studio/js-config@1.9.0":
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/@bird-studio/js-config/-/js-config-1.9.0.tgz#66d08f0ca159cc8cf219c4ae0bd9080e91005ab8"
+  integrity sha512-LZhdzpCxbRCwVqryKqFXVEfPSvRT/Bm/VDH/8SgNqj5TlFOfJnIvvdYlMNhPvRzutDcD92MWeP+VsD9AARLZSw==
   dependencies:
     "@semantic-release/git" "10.0.1"
     "@semantic-release/npm" "8.0.2"
