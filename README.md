@@ -25,7 +25,7 @@ Create messages in an interactive format.
 ## Usage
 
 ```bash
-npm i -D interactive-message
+npm i @bird-studio/interactive-message
 
 touch interactive-message.config.js
 ```
