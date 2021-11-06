@@ -1,4 +1,3 @@
-# jscpd:ignore-start
 on: [push]
 
 jobs:
@@ -28,4 +27,3 @@ jobs:
         uses: codecov/codecov-action@v2
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-# jscpd:ignore-end
