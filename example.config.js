@@ -69,7 +69,7 @@ const fetchMyIssues = () =>
  * @type {import('interactive-message').Setting}
  */
 module.exports = {
-  template: `{{type}}({{scope}}): {{gitmoji}} {{description}}
+  template: `{{type}}({{scope}}): {{gitmoji}} {{subject}}
 
 {{body}}
 
@@ -111,9 +111,9 @@ BREAKING CHANGE: {{breakingChange}}`,
       getChoices: () => gitmoji,
     },
     {
-      name: "description",
+      name: "subject",
       type: "input",
-      message: "Please input the description.",
+      message: "Please input the subject.",
     },
     {
       name: "body",
