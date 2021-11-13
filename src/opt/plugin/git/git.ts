@@ -7,8 +7,7 @@ const getGitConfig: GetGitConfig = () => {
   return config['remote "origin"'].url;
 };
 
-export const getRepo = () =>
-  getGitConfig().split("/")[0]?.split(":").slice(1).pop();
+export const getRepo = () => getGitConfig().split("/")[1]?.replace(/.git$/, "");
 
 export const getOwner = () =>
-  getGitConfig().split("/")[1]?.replace(/.git$/, "");
+  getGitConfig().split("/")[0]?.split(":").slice(1).pop();
