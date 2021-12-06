@@ -3231,7 +3231,7 @@ detect-file@^1.0.0:
 
 detect-newline@^3.0.0:
   version "3.1.0"
-  resolved "https://registry.npmjs.org/detect-newline/-/detect-newline-3.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/detect-newline/-/detect-newline-3.1.0.tgz#576f5dfc63ae1a192ff192d8ad3af6308991b651"
   integrity sha512-TLz+x/vEXm/Y7P7wn1EJFNLxYpUD4TgMosxY6fAVJUnJMbupHBOncxyWUG9OpTaH9EBD7uFI5LfEgmMOc54DsA==
 
 dezalgo@^1.0.0:
@@ -4867,9 +4867,9 @@ jest-diff@^27.0.0, jest-diff@^27.3.1:
     pretty-format "^27.3.1"
 
 jest-docblock@^27.0.6:
-  version "27.0.6"
-  resolved "https://registry.npmjs.org/jest-docblock/-/jest-docblock-27.0.6.tgz"
-  integrity sha512-Fid6dPcjwepTFraz0YxIMCi7dejjJ/KL9FBjPYhBp4Sv1Y9PdhImlKZqYU555BlN4TQKaTc+F2Av1z+anVyGkA==
+  version "27.4.0"
+  resolved "https://registry.yarnpkg.com/jest-docblock/-/jest-docblock-27.4.0.tgz#06c78035ca93cbbb84faf8fce64deae79a59f69f"
+  integrity sha512-7TBazUdCKGV7svZ+gh7C8esAnweJoG+SvcF6Cjqj4l17zA2q1cMwx2JObSioubk317H+cjcHgP+7fTs60paulg==
   dependencies:
     detect-newline "^3.0.0"
 
