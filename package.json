@@ -44,7 +44,7 @@
     "ini": "2.0.0",
     "inquirer": "8.2.0",
     "inquirer-search-list": "1.2.6",
-    "table": "6.7.3"
+    "table": "6.7.5"
   },
   "devDependencies": {
     "@bird-studio/eslint-config": "1.2.2",
