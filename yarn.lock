@@ -6019,9 +6019,9 @@ mute-stream@0.0.8, mute-stream@~0.0.4:
   integrity sha512-nnbWWOkoWyUsTjKrhgD0dcz22mdkSnpYqbEjIm2nhwhuxlSkpywJmBo8h0ZqJdkp73mb90SssHkN4rsRaBAfAA==
 
 mylas@^2.1.4:
-  version "2.1.5"
-  resolved "https://registry.yarnpkg.com/mylas/-/mylas-2.1.5.tgz#7ccf41ec5a93ab2d63fc3678abf1942c0e7bdeb1"
-  integrity sha512-7ZyrJux1lipSR45IxDvWz7zJOXWTazTFCqD4/p8XBF4O+mtJwf7QpMWTH+jE4lV9O2I38xcpS0KTIp7GwhUTmA==
+  version "2.1.6"
+  resolved "https://registry.yarnpkg.com/mylas/-/mylas-2.1.6.tgz#40f3ac6faf77b966c2c2f7b9c0d21ea65b3d9800"
+  integrity sha512-5ggCu4hVRJZE6NpQ309y6ArykK5vujK6LfSAXvsrmBNSX/9Gfq7D9zjxhHyjSR/sbFzCe2hI9LO1EY9KXv/XkQ==
 
 natural-compare@^1.4.0:
   version "1.4.0"
