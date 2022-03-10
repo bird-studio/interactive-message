@@ -5308,9 +5308,9 @@ libnpmsearch@^5.0.0:
     npm-registry-fetch "^13.0.0"
 
 libnpmteam@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/libnpmteam/-/libnpmteam-4.0.0.tgz#821127ff0540a3163f907a697fe7a2ad71bfb573"
-  integrity sha512-Lt6oGyMzMXUdSmJJdpC2qCthoqe/r8mqDVXncv4Dn4KdxMWoA39aoQF23xq1wJ3fbfSnqbZUAJ2xDzNkxTLRzg==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/libnpmteam/-/libnpmteam-4.0.1.tgz#0fb53142ffe4e84bcba94acb4a78867333925592"
+  integrity sha512-zM4dCkfHaLWGv5WL2p4XlzIr0GuwXEnu4DOH1dlvuwyH0J95y0wzjEXrlXrlfKrzNtTmuCCqzOs4SqC/kgA7Qg==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^13.0.0"
