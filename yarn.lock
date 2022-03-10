@@ -5308,9 +5308,9 @@ libnpmsearch@^5.0.0:
     npm-registry-fetch "^13.0.0"
 
 libnpmteam@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/libnpmteam/-/libnpmteam-4.0.0.tgz#821127ff0540a3163f907a697fe7a2ad71bfb573"
-  integrity sha512-Lt6oGyMzMXUdSmJJdpC2qCthoqe/r8mqDVXncv4Dn4KdxMWoA39aoQF23xq1wJ3fbfSnqbZUAJ2xDzNkxTLRzg==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/libnpmteam/-/libnpmteam-4.0.1.tgz#0fb53142ffe4e84bcba94acb4a78867333925592"
+  integrity sha512-zM4dCkfHaLWGv5WL2p4XlzIr0GuwXEnu4DOH1dlvuwyH0J95y0wzjEXrlXrlfKrzNtTmuCCqzOs4SqC/kgA7Qg==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^13.0.0"
@@ -5441,10 +5441,15 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lru-cache@^7.3.1, lru-cache@^7.4.0, lru-cache@^7.4.1:
+lru-cache@^7.3.1, lru-cache@^7.4.0:
   version "7.4.1"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.4.1.tgz#afe07e885ef0cd5bf99f62f4fa7545d48746d779"
   integrity sha512-NCD7/WRlFmADccuHjsRUYqdluYBr//n/O0fesCb/n52FoGcgKh8o4Dpm7YIbZwVcDs8rPBQbCZLmWWsp6m+xGQ==
+
+lru-cache@^7.4.1:
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.4.2.tgz#92f7b5afe82759f51b216a96fae3bc1828df9712"
+  integrity sha512-Xs3+hFPDSKQmL05Gs6NhvAADol1u9TmLoNoE03ZjszX6a5iYIO3rPUM4jIjoBUJeTaWEBMozjjmV70gvdRfIdw==
 
 magic-string@^0.25.0, magic-string@^0.25.7:
   version "0.25.9"
