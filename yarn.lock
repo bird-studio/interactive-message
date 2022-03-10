@@ -5265,9 +5265,9 @@ libnpmfund@^3.0.0:
     "@npmcli/arborist" "^5.0.0"
 
 libnpmhook@^8.0.0:
-  version "8.0.0"
-  resolved "https://registry.yarnpkg.com/libnpmhook/-/libnpmhook-8.0.0.tgz#94c22e2c39d81df778043a6372fd0954fddb09bc"
-  integrity sha512-RsY9jqbhscdfPVKDB+D2sCAeSRVpLY0rQqZIowbZYm684198ghXc674wRxUxoF/1Q/FK/O6g0suRmNTtfqW4hw==
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/libnpmhook/-/libnpmhook-8.0.1.tgz#2f6fab6a5700002fd5681461897cc23ecf835669"
+  integrity sha512-4kdii7Krt8ii9ZLP/xiU1e4Al2NtnOagVQ3/klL3+ZVBU9DVioMsr+7HB3UGdgohjwTrUSN0XhdeQJdoDjvEdg==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^13.0.0"
@@ -5441,10 +5441,15 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lru-cache@^7.3.1, lru-cache@^7.4.0, lru-cache@^7.4.1:
+lru-cache@^7.3.1, lru-cache@^7.4.0:
   version "7.4.1"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.4.1.tgz#afe07e885ef0cd5bf99f62f4fa7545d48746d779"
   integrity sha512-NCD7/WRlFmADccuHjsRUYqdluYBr//n/O0fesCb/n52FoGcgKh8o4Dpm7YIbZwVcDs8rPBQbCZLmWWsp6m+xGQ==
+
+lru-cache@^7.4.1:
+  version "7.4.2"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.4.2.tgz#92f7b5afe82759f51b216a96fae3bc1828df9712"
+  integrity sha512-Xs3+hFPDSKQmL05Gs6NhvAADol1u9TmLoNoE03ZjszX6a5iYIO3rPUM4jIjoBUJeTaWEBMozjjmV70gvdRfIdw==
 
 magic-string@^0.25.0, magic-string@^0.25.7:
   version "0.25.9"
