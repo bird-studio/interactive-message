@@ -5249,9 +5249,9 @@ libnpmdiff@^4.0.0:
     tar "^6.1.0"
 
 libnpmexec@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.0.tgz#db0fcd2210f42578eca92110719cb3c757a14687"
-  integrity sha512-1aZ4ujSC3gJ/ADp2cwsQcb8zNlYO1QaA4jnELG3d1tuKLQkD4XX9IQNHH1Ac2DsvM7WZ5oHWjg9PUV0ceHNczQ==
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/libnpmexec/-/libnpmexec-4.0.1.tgz#02755c03fd2566ed9d8857dfebf5183d0967a982"
+  integrity sha512-hax7tnZwx0RVoo4Ds0X9aItzGAibbbiOcxXox1OSCOOFeM56rRsCJh/Izog8/8X8/6kMaybWS5reDIC0oPxX7g==
   dependencies:
     "@npmcli/arborist" "^5.0.0"
     "@npmcli/ci-detect" "^2.0.0"
@@ -5451,9 +5451,9 @@ lru-cache@^6.0.0:
     yallist "^4.0.0"
 
 lru-cache@^7.3.1, lru-cache@^7.4.1:
-  version "7.4.4"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.4.4.tgz#a3dabc394ec07e2285af52fd24d0d74b3ac71c29"
-  integrity sha512-2XbUJmlpIbmc9JvNNmtLzHlF31srxoDxuiQiwBHic7RZyHyltbTdzoO6maRqpdEhOOG5GD80EXvzAU0wR15ccg==
+  version "7.5.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.5.0.tgz#5e14318d64e6f180a5cf3b9b955b2e89376c0efe"
+  integrity sha512-8neUvdgNtubJ+VNNqrqOLjUoIlN+NRPFtv1Vne2rQ4uPCxhp0W4TlqntzTLnVVezGXcSSdXTrKCTYooEQA7X6g==
 
 magic-string@^0.25.0, magic-string@^0.25.7:
   version "0.25.9"
