@@ -29,17 +29,7 @@ export type Setting = {
       | "blue"
       | "magenta"
       | "cyan"
-      | "white"
-      | "gray"
-      | "grey"
-      | "blackBright"
-      | "redBright"
-      | "greenBright"
-      | "yellowBright"
-      | "blueBright"
-      | "magentaBright"
-      | "cyanBright"
-      | "whiteBright";
+      | "white";
   };
 };
 
