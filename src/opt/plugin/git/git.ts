@@ -1,13 +1,18 @@
 import * as fs from "fs";
 import * as ini from "ini";
+import * as child_process from "child_process";
 
-type GetGitConfig = () => string;
-const getGitConfig: GetGitConfig = () => {
-  const config = ini.parse(fs.readFileSync(".git/config", "utf-8"));
-  return config['remote "origin"'].url;
-};
+const getGitConfigRemoteOriginUrl = () =>
+  ini.parse(fs.readFileSync(".git/config", "utf-8"))['remote "origin"'].url;
 
-export const getRepo = () => getGitConfig().split("/")[1]?.replace(/.git$/, "");
+export const getRepo = () =>
+  getGitConfigRemoteOriginUrl().split("/")[1]?.replace(/.git$/, "");
 
 export const getOwner = () =>
-  getGitConfig().split("/")[0]?.split(":").slice(1).pop();
+  getGitConfigRemoteOriginUrl().split("/")[0]?.split(":").slice(1).pop();
+
+export const getUserName = () =>
+  child_process
+    .execSync("git config user.name")
+    .toString()
+    .replace(/\r?\n/g, "");

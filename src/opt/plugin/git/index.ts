@@ -1,1 +1,1 @@
-export { getRepo, getOwner } from "./git";
+export { getRepo, getOwner, getUserName } from "./git";

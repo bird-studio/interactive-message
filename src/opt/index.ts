@@ -1,6 +1,6 @@
 import { fetchIssues } from "./plugin/github";
 import { gitmojis } from "./plugin/gitmoji";
-import { getOwner, getRepo } from "./plugin/git";
+import { getOwner, getRepo, getUserName } from "./plugin/git";
 
 // ts-prune-ignore-next
 export type { Setting } from "~/domain/interactiveCommit/core";
@@ -9,5 +9,5 @@ export type { Setting } from "~/domain/interactiveCommit/core";
 export const plugin = {
   gitmoji: { gitmojis },
   github: { fetchIssues },
-  git: { getRepo, getOwner },
+  git: { getRepo, getOwner, getUserName },
 };

@@ -43,20 +43,26 @@ const gitmoji = plugin.gitmoji.gitmojis.map((v) => ({
   value: v.code,
 }));
 
+const gitConf = {
+  owner: plugin.git.getOwner(),
+  repo: plugin.git.getRepo(),
+  userName: plugin.git.getUserName(),
+};
+
 /**
  * https://github.com/octokit/rest.js/
  */
 const fetchMyIssues = () =>
   plugin.github
     .fetchIssues({
-      owner: "bird-studio",
-      repo: "interactive-message",
+      owner: gitConf.owner,
+      repo: gitConf.repo,
       state: "open",
     })
     .then((r) =>
       r.data
         .filter((v) => !v.pull_request)
-        .filter((v) => v.assignees.find((a) => a.login === "akira-toriyama"))
+        .filter((v) => v.assignees.find((a) => a.login === gitConf.userName))
         .map((issue) => ({
           description: `#${issue.number}: ${issue.title}`,
           value: `${issue.number}`,
