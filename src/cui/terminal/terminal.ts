@@ -1,4 +1,4 @@
-import * as chalk from "chalk";
+import * as clc from "cli-color";
 import * as inquirer from "inquirer";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
@@ -18,7 +18,7 @@ const renderTpl: RenderTpl = (p) => {
         p.template
           .replace(
             new RegExp(`${p.question.name}`),
-            chalk.inverse.bold[p.config.color](p.question.name)
+            clc.inverse.bold[p.config.color](p.question.name)
           )
           .replace(new RegExp("{{", "g"), "")
           .replace(new RegExp("}}", "g"), ""),
@@ -31,27 +31,27 @@ const renderTpl: RenderTpl = (p) => {
       },
       header: {
         alignment: "center",
-        content: chalk.bold(p.config.templateName),
+        content: clc.bold(p.config.templateName),
       },
       border: {
-        topBody: chalk[p.config.color](`─`),
-        topJoin: chalk[p.config.color](`┬`),
-        topLeft: chalk[p.config.color](`┌`),
-        topRight: chalk[p.config.color](`┐`),
+        topBody: clc[p.config.color](`─`),
+        topJoin: clc[p.config.color](`┬`),
+        topLeft: clc[p.config.color](`┌`),
+        topRight: clc[p.config.color](`┐`),
 
-        bottomBody: chalk[p.config.color](`─`),
-        bottomJoin: chalk[p.config.color](`┴`),
-        bottomLeft: chalk[p.config.color](`└`),
-        bottomRight: chalk[p.config.color](`┘`),
+        bottomBody: clc[p.config.color](`─`),
+        bottomJoin: clc[p.config.color](`┴`),
+        bottomLeft: clc[p.config.color](`└`),
+        bottomRight: clc[p.config.color](`┘`),
 
-        bodyLeft: chalk[p.config.color](`│`),
-        bodyRight: chalk[p.config.color](`│`),
-        bodyJoin: chalk[p.config.color](`│`),
+        bodyLeft: clc[p.config.color](`│`),
+        bodyRight: clc[p.config.color](`│`),
+        bodyJoin: clc[p.config.color](`│`),
 
-        joinBody: chalk[p.config.color](`─`),
-        joinLeft: chalk[p.config.color](`├`),
-        joinRight: chalk[p.config.color](`┤`),
-        joinJoin: chalk[p.config.color](`┼`),
+        joinBody: clc[p.config.color](`─`),
+        joinLeft: clc[p.config.color](`├`),
+        joinRight: clc[p.config.color](`┤`),
+        joinJoin: clc[p.config.color](`┼`),
       },
     }
   );
