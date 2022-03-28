@@ -67,7 +67,7 @@
     "ts-jest": "27.1.4",
     "ts-node": "10.7.0",
     "ts-prune": "0.10.3",
-    "tsc-alias": "1.6.4",
+    "tsc-alias": "1.6.5",
     "tsconfig-paths": "3.14.1",
     "typescript": "4.6.3"
   },
