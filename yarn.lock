@@ -5244,10 +5244,10 @@ jstransformer@1.0.0:
     is-promise "^2.0.0"
     promise "^7.0.1"
 
-just-diff-apply@^4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/just-diff-apply/-/just-diff-apply-4.0.1.tgz#da89c5a4ccb14aa8873c70e2c3b6695cef45dab5"
-  integrity sha512-AKOkzB5P6FkfP21UlZVX/OPXx/sC2GagpLX9cBxqHqDuRjwmZ/AJRKSNrB9jHPpRW1W1ONs6gly1gW46t055nQ==
+just-diff-apply@^5.2.0:
+  version "5.2.0"
+  resolved "https://registry.yarnpkg.com/just-diff-apply/-/just-diff-apply-5.2.0.tgz#15da3888ab3acecc14ce9a067f2d7589c653cb89"
+  integrity sha512-unjtin7rnng0KUpE4RPWwTl8iwWiZuyZqOQ+vm8orV6aIXX8mHN8zlKCPPbOycfDNuLh2PBazbFhNoDJv4S/FA==
 
 just-diff@^5.0.1:
   version "5.0.1"
@@ -6359,13 +6359,13 @@ parent-module@^1.0.0:
     callsites "^3.0.0"
 
 parse-conflict-json@^2.0.1:
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/parse-conflict-json/-/parse-conflict-json-2.0.1.tgz#76647dd072e6068bcaff20be6ccea68a18e1fb58"
-  integrity sha512-Y7nYw+QaSGBto1LB9lgwOR05Rtz5SbuTf+Oe7HJ6SYQ/DHsvRjQ8O03oWdJbvkt6GzDWospgyZbGmjDYL0sDgA==
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/parse-conflict-json/-/parse-conflict-json-2.0.2.tgz#3d05bc8ffe07d39600dc6436c6aefe382033d323"
+  integrity sha512-jDbRGb00TAPFsKWCpZZOT93SxVP9nONOSgES3AevqRq/CHvavEBvKAjxX9p5Y5F0RZLxH9Ufd9+RwtCsa+lFDA==
   dependencies:
     json-parse-even-better-errors "^2.3.1"
     just-diff "^5.0.1"
-    just-diff-apply "^4.0.1"
+    just-diff-apply "^5.2.0"
 
 parse-json@^4.0.0:
   version "4.0.0"
