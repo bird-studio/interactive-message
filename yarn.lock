@@ -5407,9 +5407,9 @@ libnpmteam@^4.0.2:
     npm-registry-fetch "^13.0.0"
 
 libnpmversion@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/libnpmversion/-/libnpmversion-3.0.1.tgz#378ef2b092a4a633772b1e66620ce3c431dc3697"
-  integrity sha512-ZxOVWmMX+RBkOeJSiNPdhMqRaAOJXf3EDfvC6Mr90+NaM+gKptiw/NJBT3jKfZKbLn/wuC0Ey/sc4YNLoBk0Qw==
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/libnpmversion/-/libnpmversion-3.0.2.tgz#02e517ee2a6454010ab81fd47d26fa1e328f356d"
+  integrity sha512-W76aMbL6NWkvOCoBpbWEoypCBsaXU95vhYY2eqBg0Ev11lwpjLIGC78ZCzT/M2hI00ena+yoCpGXGnAk949KOQ==
   dependencies:
     "@npmcli/git" "^3.0.0"
     "@npmcli/run-script" "^3.0.0"
