@@ -5405,9 +5405,9 @@ libnpmsearch@^5.0.2:
     npm-registry-fetch "^13.0.0"
 
 libnpmteam@^4.0.2:
-  version "4.0.2"
-  resolved "https://registry.yarnpkg.com/libnpmteam/-/libnpmteam-4.0.2.tgz#0b2411275a43ca3fe59526f3ee2fd297cf12c2ea"
-  integrity sha512-1ZuzHLEMzOBsAALjupZnaFx2qG9Ki/XvB92vmR1HpSFA3ltEKjPMz9mB0JJZsRTZ+ajvUI7Gy8VuAIkNLXW1xA==
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/libnpmteam/-/libnpmteam-4.0.3.tgz#9335fbbd032b3770f5c9b7ffc6203f47d1ed144a"
+  integrity sha512-LsYYLz4TlTpcqkusInY5MhKjiHFaCx1GV0LmydXJ/QMh+3IWBJpUhes4ynTZuFoJKkDIFjxyMU09ul+RZixgdg==
   dependencies:
     aproba "^2.0.0"
     npm-registry-fetch "^13.0.0"
@@ -5538,7 +5538,12 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lru-cache@^7.4.0, lru-cache@^7.4.4, lru-cache@^7.5.1, lru-cache@^7.7.1:
+lru-cache@^7.4.0, lru-cache@^7.5.1, lru-cache@^7.7.1:
+  version "7.8.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.8.0.tgz#649aaeb294a56297b5cbc5d70f198dcc5ebe5747"
+  integrity sha512-AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg==
+
+lru-cache@^7.4.4:
   version "7.7.3"
   resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-7.7.3.tgz#98cd19eef89ce6a4a3c4502c17c833888677c252"
   integrity sha512-WY9wjJNQt9+PZilnLbuFKM+SwDull9+6IAguOrarOMoOHTcJ9GnXSO11+Gw6c7xtDkBkthR57OZMtZKYr+1CEw==
