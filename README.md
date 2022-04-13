@@ -22,6 +22,10 @@ Create messages in an interactive format.
 
 ![preview](https://github.com/bird-studio/interactive-message/blob/main/media/eyeCatch.gif)
 
+## I need to use it right away.
+
+https://github.com/akira-toriyama/interactive-message-demo
+
 ## Usage
 
 ```bash
