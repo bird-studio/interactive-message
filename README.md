@@ -51,7 +51,7 @@ exec < /dev/tty && yarn interactive-message commit
 ```
 
 ```bash
-git -c my.interactive=yes commit
+git commit
 ```
 
 `package.json`
