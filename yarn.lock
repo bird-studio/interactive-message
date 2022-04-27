@@ -5415,14 +5415,14 @@ libnpmpack@^4.0.2:
     pacote "^13.0.5"
 
 libnpmpublish@^6.0.2:
-  version "6.0.3"
-  resolved "https://registry.yarnpkg.com/libnpmpublish/-/libnpmpublish-6.0.3.tgz#b10cd9c8b2ebeccadc05aea78f11acb28fe606c4"
-  integrity sha512-slJ5XuTR3DIF669K7MLVSdhvkatoM3/D+wvryKxVtquKnEbfFORESI1w0lYD4tvrPEy6AU9y/qEMDqhUW712HQ==
+  version "6.0.4"
+  resolved "https://registry.yarnpkg.com/libnpmpublish/-/libnpmpublish-6.0.4.tgz#adb41ec6b0c307d6f603746a4d929dcefb8f1a0b"
+  integrity sha512-lvAEYW8mB8QblL6Q/PI/wMzKNvIrF7Kpujf/4fGS/32a2i3jzUXi04TNyIBcK6dQJ34IgywfaKGh+Jq4HYPFmg==
   dependencies:
     normalize-package-data "^4.0.0"
     npm-package-arg "^9.0.1"
     npm-registry-fetch "^13.0.0"
-    semver "^7.1.3"
+    semver "^7.3.7"
     ssri "^9.0.0"
 
 libnpmsearch@^5.0.2:
@@ -7242,7 +7242,7 @@ semver@7.0.0:
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.0.0.tgz#5f3ca35761e47e05b206c6daff2cf814f0316b8e"
   integrity sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==
 
-semver@7.x, semver@^7.0.0, semver@^7.1.1, semver@^7.1.2, semver@^7.1.3, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.3.6, semver@^7.3.7:
+semver@7.x, semver@^7.0.0, semver@^7.1.1, semver@^7.1.2, semver@^7.3.2, semver@^7.3.4, semver@^7.3.5, semver@^7.3.6, semver@^7.3.7:
   version "7.3.7"
   resolved "https://registry.yarnpkg.com/semver/-/semver-7.3.7.tgz#12c5b649afdbf9049707796e22a4028814ce523f"
   integrity sha512-QlYTucUYOews+WeEujDoEGziz4K6c47V/Bd+LjSSYcA94p+DmINdf7ncaUinThfvZyu13lN9OY1XDxt8C0Tw0g==
