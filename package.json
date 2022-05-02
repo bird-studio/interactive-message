@@ -42,7 +42,7 @@
     "cosmiconfig": "7.0.1",
     "gitmojis": "3.9.0",
     "ini": "3.0.0",
-    "inquirer": "8.2.3",
+    "inquirer": "8.2.4",
     "inquirer-search-list": "1.2.6",
     "table": "6.8.0"
   },
