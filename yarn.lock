@@ -5302,9 +5302,9 @@ jstransformer@1.0.0:
     promise "^7.0.1"
 
 just-diff-apply@^5.2.0:
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/just-diff-apply/-/just-diff-apply-5.2.0.tgz#15da3888ab3acecc14ce9a067f2d7589c653cb89"
-  integrity sha512-unjtin7rnng0KUpE4RPWwTl8iwWiZuyZqOQ+vm8orV6aIXX8mHN8zlKCPPbOycfDNuLh2PBazbFhNoDJv4S/FA==
+  version "5.3.1"
+  resolved "https://registry.yarnpkg.com/just-diff-apply/-/just-diff-apply-5.3.1.tgz#30f40809ffed55ad76dccf73fa9b85a76964c867"
+  integrity sha512-dgFenZnMsc1xGNqgdtgnh7DK+Oy352CE3VZLbzcbQpsBs9iI2K3M0IRrdgREZ72eItTjbl0suRyvKRdVQa9GbA==
 
 just-diff@^5.0.1:
   version "5.0.2"
