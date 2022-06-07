@@ -6884,9 +6884,9 @@ qrcode-terminal@^0.12.0:
   integrity sha512-EXtzRZmC+YGmGlDFbXKxQiMZNwCLEO6BANKXG4iCtSIM0yqc/pappSx3RIKr4r0uh5JsBckOXeKrB3Iz7mdQpQ==
 
 queue-lit@^1.2.7:
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/queue-lit/-/queue-lit-1.2.7.tgz#69081656c9e7b81f09770bb2de6aa007f1a90763"
-  integrity sha512-K/rTdggORRcmf3+c89ijPlgJ/ldGP4oBj6Sm7VcTup4B2clf03Jo8QaXTnMst4EEQwkUbOZFN4frKocq2I85gw==
+  version "1.2.8"
+  resolved "https://registry.yarnpkg.com/queue-lit/-/queue-lit-1.2.8.tgz#2bafa0eafb8db0380ab2301d90c52a065c4baad0"
+  integrity sha512-CR0/8Xb0oRk4rZrteSZcjrrPhWfXGBAWa/ATxYCqpdM4fnZu8M3zob5ajLxLUCXmpOzhHZ1+zgscrlzQtEOM0A==
 
 queue-microtask@^1.2.2:
   version "1.2.3"
