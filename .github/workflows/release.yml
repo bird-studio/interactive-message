@@ -22,7 +22,6 @@ jobs:
       - name: Quality check
         uses: ./.github/actions/qualityCheck
 
-      # カスタム
       - name: Release
         run: yarn semantic-release
         env:
