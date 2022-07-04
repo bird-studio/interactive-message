@@ -42,7 +42,7 @@
     "cosmiconfig": "7.0.1",
     "gitmojis": "3.10.0",
     "ini": "3.0.0",
-    "inquirer": "9.0.0",
+    "inquirer": "^8.0.0",
     "inquirer-search-list": "1.2.6",
     "table": "6.8.0"
   },
@@ -65,7 +65,7 @@
     "prettier": "2.7.1",
     "semantic-release": "19.0.3",
     "ts-jest": "28.0.5",
-    "ts-node": "10.8.1",
+    "ts-node": "10.8.2",
     "ts-prune": "0.10.3",
     "tsc-alias": "1.6.11",
     "tsconfig-paths": "4.0.0",
