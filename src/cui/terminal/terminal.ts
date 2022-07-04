@@ -1,5 +1,6 @@
 import * as clc from "cli-color";
-import * as inquirer from "inquirer";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const inquirer = require("inquirer");
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-expect-error
 import * as inquirerAutocompletePrompt from "inquirer-search-list";
@@ -66,7 +67,7 @@ type QAndA = (p: {
 const qAndA: QAndA = (p) =>
   workFlow
     .prepareQuestions(p)
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    // @ts-expect-error -- fixme
     .then((v) => inquirer.prompt<WorkFlow.AnswerVO>(v.question as any));
 
 type Clear = () => void;
