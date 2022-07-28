@@ -2748,9 +2748,9 @@ camelcase@^6.2.0:
   integrity sha512-Gmy6FhYlCY7uOElZUSbxo2UCDH8owEk996gkbrpsgGtrJLM3J7jGxl9Ic7Qwwj4ivOE5AWZWRMecDdF7hqGjFA==
 
 caniuse-lite@^1.0.30001366:
-  version "1.0.30001370"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001370.tgz#0a30d4f20d38b9e108cc5ae7cc62df9fe66cd5ba"
-  integrity sha512-3PDmaP56wz/qz7G508xzjx8C+MC2qEm4SYhSEzC9IBROo+dGXFWRuaXkWti0A9tuI00g+toiriVqxtWMgl350g==
+  version "1.0.30001372"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001372.tgz#133db3d1d259d8f97cc2d83ac7cb519daf36e07e"
+  integrity sha512-tBgBhIXBIqORB9ieUEYBKRfSlaF6YPq7WNNqcreF6Cl24UKNGIvE5/rP59dOGN6TRIS/5zOMHAMSRrVNmifWWw==
 
 cardinal@^2.1.1:
   version "2.1.1"
