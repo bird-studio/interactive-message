@@ -4085,6 +4085,11 @@ gitmojis@3.10.0:
     focus-trap-react "^8.9.0"
     next-pwa "^5.4.4"
 
+gitmojis@3.11.1:
+  version "3.11.1"
+  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.11.1.tgz#8df36840da096f6f513ae923ef6727028805e11b"
+  integrity sha512-9hEYN+AEUFHVoEgfKZ28pMeZanV7JlVykYVdze5bXxc/eitSfN/Xsbx0SfLgrG9jzh5SfL3eYY+zl7WIdo/xTw==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
