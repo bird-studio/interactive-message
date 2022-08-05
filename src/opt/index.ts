@@ -1,7 +1,7 @@
 import { fetchIssues } from "./plugin/github";
 import { gitmojis } from "./plugin/gitmoji";
 import { getOwner, getRepo, getUserName } from "./plugin/git";
-import { makeDictionary } from "./plugin/typo";
+import { makeDictionary, toAns } from "./plugin/typo";
 
 // ts-prune-ignore-next
 export type { Setting } from "~/domain/interactiveCommit/core";
@@ -11,5 +11,5 @@ export const plugin = {
   gitmoji: { gitmojis },
   github: { fetchIssues },
   git: { getRepo, getOwner, getUserName },
-  makeDictionary: { makeDictionary },
+  typo: { toAns, makeDictionary },
 };
