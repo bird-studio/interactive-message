@@ -316,10 +316,10 @@
     table "6.8.0"
     typo-js "1.2.2"
 
-"@bird-studio/js-config@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@bird-studio/js-config/-/js-config-3.0.0.tgz#cc7c1883206611eee5cbc9609b41599ca12043c2"
-  integrity sha512-1C0RWRg26TCjp3IEL20bR7BbsmJ7466zHFQQ4Sl2ZTuk2+wRhaGq1rVf/Rxa2TNa7FR0nJvkXkvD4BrcXEXynQ==
+"@bird-studio/js-config@3.1.0":
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@bird-studio/js-config/-/js-config-3.1.0.tgz#7ca44490a109be5efa684ff835a770fb14c4c436"
+  integrity sha512-sX5iZQShj3EnsJHmSZrID/k2zlPfuwwTI1DijPB52D8+aq9WusAwMlXctoc8Bwr75lw0HUw7U/FitZ6DEAx7qg==
   dependencies:
     cosmiconfig "7.0.1"
 
