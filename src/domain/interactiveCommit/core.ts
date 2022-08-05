@@ -40,9 +40,15 @@ export type Setting = {
  */
 export type Answer = string;
 
+/**
+ * エラーメッセージ
+ */
+type ErrMsg = string;
+
 type QuestionBase = {
   name: string;
   message: string;
+  validate?: <T>(input: T) => true | ErrMsg;
   /**
    * 回答の上書き
    */
