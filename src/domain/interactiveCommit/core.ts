@@ -43,7 +43,7 @@ export type Answer = string;
 /**
  * エラーメッセージ
  */
-export type ErrMsg = string;
+type ErrMsg = string;
 
 type QuestionBase = {
   name: string;
