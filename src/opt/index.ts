@@ -11,5 +11,5 @@ export const plugin = {
   gitmoji: { gitmojis },
   github: { fetchIssues },
   git: { getRepo, getOwner, getUserName },
-  makeDictionary: { makeDictionary },
+  typo: { makeDictionary },
 };
