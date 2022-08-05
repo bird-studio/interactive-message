@@ -20,7 +20,7 @@
 
 Create messages in an interactive format.
 
-![preview](https://github.com/bird-studio/interactive-message/blob/main/media/eyeCatch.gif)
+https://user-images.githubusercontent.com/92862731/183108755-09c3b60c-f46d-4422-99f7-e6782cdf9ecd.mov
 
 ## I need to use it right away.
 
