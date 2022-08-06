@@ -1,1 +1,1 @@
-// module.exports = require("@bird-studio/js-config").interactiveMessageConfig;
+module.exports = require("@bird-studio/js-config").interactiveMessageConfig;
