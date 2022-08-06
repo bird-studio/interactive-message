@@ -1,1 +1,0 @@
-export { fetchIssues } from "./fetchIssues";
