@@ -4,7 +4,7 @@ const textgears = require("textgears-api");
 /**
  * https://textgears.com/api
  */
-export const cretaGrammarApi = (p: { key: string; language: string }) =>
+export const createGrammarApi = (p: { key: string; language: string }) =>
   textgears(p.key, { language: p.language });
 
 export const checkGrammar = (p: { grammarApi: any; txt: string }) =>
