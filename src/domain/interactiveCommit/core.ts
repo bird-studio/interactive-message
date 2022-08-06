@@ -52,7 +52,7 @@ type QuestionBase = {
   /**
    * 回答の上書き
    */
-  overwriteAnswer?: (p: Answer) => Answer;
+  overwriteAnswer?: (p: Answer) => Promise<Answer>;
   /**
    * テンプレートの上書き
    *

@@ -21,7 +21,7 @@ export const interactiveCommit: WorkFlow.InteractiveCommit = async (p) => {
   }
 
   const answer = question.overwriteAnswer
-    ? question.overwriteAnswer(mayBeAnswer.value.answer)
+    ? await question.overwriteAnswer(mayBeAnswer.value.answer)
     : mayBeAnswer.value.answer;
 
   const newTemplate = workFlow.updateTemplate({
