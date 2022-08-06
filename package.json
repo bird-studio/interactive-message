@@ -45,6 +45,7 @@
     "inquirer": "~8",
     "inquirer-search-list": "1.2.6",
     "table": "6.8.0",
+    "textgears-api": "1.1.3",
     "typo-js": "1.2.2"
   },
   "devDependencies": {
