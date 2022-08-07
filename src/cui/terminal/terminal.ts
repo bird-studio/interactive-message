@@ -67,7 +67,8 @@ type QAndA = (p: {
 const qAndA: QAndA = (p) =>
   workFlow
     .prepareQuestions(p)
-    // @ts-expect-error -- fixme
+    // @ts-expect-error -- FIXME
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     .then((v) => inquirer.prompt<WorkFlow.AnswerVO>(v.question as any));
 
 type Clear = () => void;
