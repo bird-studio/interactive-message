@@ -300,15 +300,16 @@
     eslint-config-prettier "8.5.0"
     eslint-plugin-jest "26.1.4"
 
-"@bird-studio/interactive-message@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-3.1.0.tgz#8f3e0c0a443cbb8c2c7287215d8c6db0ec571aee"
-  integrity sha512-mTlvAqO7jzwdhEqgIdB/fUtyPMOI5ouwCmt2ZXQEvu1nTFJfozNZ055zy3ps6DhdPdWUdkIOUSAHPRZ2LXhmiQ==
+"@bird-studio/interactive-message@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@bird-studio/interactive-message/-/interactive-message-3.3.0.tgz#be323d8f4e08d3e7f30b5c995d3b38f958feff07"
+  integrity sha512-aacC8kBd0iSXBczZacumoZSPoC2iPEvahe3gX8gEe+4Tf2srl/03ebOpl//7QoV6f4F5nzUa/6ZnGEbW7Y5/Qw==
   dependencies:
     "@octokit/rest" "19.0.3"
     cac "6.7.12"
     cli-color "2.0.3"
     cosmiconfig "7.0.1"
+    deepl-node "1.3.1"
     gitmojis "3.12.0"
     ini "3.0.0"
     inquirer "~8"
@@ -317,10 +318,10 @@
     textgears-api "1.1.3"
     typo-js "1.2.2"
 
-"@bird-studio/js-config@3.3.4":
-  version "3.3.4"
-  resolved "https://registry.yarnpkg.com/@bird-studio/js-config/-/js-config-3.3.4.tgz#b9d5ec9679c2d4f5cd7a9d3acbbd6250523b0661"
-  integrity sha512-qtQw54RzQ3RCfDU6XmiVa6hOsN/LPaioUtEMYKIrg8D5IPeUY2+b9OjMy4+6Y6we157KFHgZ7pVjuX8QvdahCw==
+"@bird-studio/js-config@3.4.1":
+  version "3.4.1"
+  resolved "https://registry.yarnpkg.com/@bird-studio/js-config/-/js-config-3.4.1.tgz#c3157712e0d2292e9c909e744a57b01b2e0e92b5"
+  integrity sha512-zX/1EANMRqnGmGzyA3JXHPNwQt/tIrgzixUFz8/HNiFu2VzpLXvJn/d7IFfF6xHGiykYwnf7iw8Q/aljPEATPQ==
   dependencies:
     cosmiconfig "7.0.1"
 
