@@ -1,4 +1,4 @@
-import type { Answer, InputTypeQ, Question, Setting } from "./core";
+import type { Answer, InputTypeQ, Question, Setting, MsgArray } from "./core";
 
 export type AnswerVO = Record<Question["name"], string | number>;
 
@@ -13,6 +13,11 @@ type UI = {
   renderingQnA: (
     p: {
       question: Question;
+      msgArray?: MsgArray;
+      /**
+       * 直前の入力値
+       */
+      inputtedValue?: string;
     } & Setting
   ) => Promise<AnswerVO>;
   validator: {
@@ -41,6 +46,14 @@ type UI = {
 export type InteractiveCommit = (p: {
   setting: Setting;
   ui: UI;
+  /**
+   * 設問部分に表示するメッセージ用
+   */
+  msgArray?: MsgArray;
+  /**
+   * 直前の入力値
+   */
+  inputtedValue?: string;
 }) => Promise<Setting["template"]>;
 
 /**

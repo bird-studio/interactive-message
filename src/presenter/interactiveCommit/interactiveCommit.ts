@@ -9,7 +9,12 @@ export const interactiveCommit: WorkFlow.InteractiveCommit = async (p) => {
     return Promise.resolve(template).finally(p.ui.clear);
   }
 
-  const answerVO = await p.ui.renderingQnA({ ...p.setting, question });
+  const answerVO = await p.ui.renderingQnA({
+    ...p.setting,
+    question,
+    msgArray: p.msgArray,
+    inputtedValue: p.inputtedValue,
+  });
 
   const mayBeAnswer = p.ui.validator.valid({
     answerVO,
@@ -18,6 +23,22 @@ export const interactiveCommit: WorkFlow.InteractiveCommit = async (p) => {
 
   if (mayBeAnswer.isErr) {
     throw new Error(mayBeAnswer.error.reason);
+  }
+
+  if (question?.exValidate) {
+    const validateResult = await question.exValidate(mayBeAnswer.value.answer);
+    if (validateResult !== true) {
+      return interactiveCommit({
+        ui: p.ui,
+        msgArray: validateResult,
+        inputtedValue: mayBeAnswer.value.answer,
+        setting: {
+          questionDictionary: [question, ...p.setting.questionDictionary],
+          template,
+          config: p.setting.config,
+        },
+      });
+    }
   }
 
   const answer = question.overwriteAnswer
