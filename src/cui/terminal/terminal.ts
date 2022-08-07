@@ -5,13 +5,28 @@ const inquirer = require("inquirer");
 // @ts-expect-error
 import * as inquirerAutocompletePrompt from "inquirer-search-list";
 import { table } from "table";
-import type { Question, Setting } from "~/domain/interactiveCommit/core";
+import type {
+  Question,
+  Setting,
+  MsgArray,
+} from "~/domain/interactiveCommit/core";
 import type * as WorkFlow from "~/domain/interactiveCommit/workFlow";
 import * as workFlow from "~/useCase/interactiveCommit/workFlow";
 inquirer.registerPrompt("search-list", inquirerAutocompletePrompt);
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const { keyboard } = require("@nut-tree/nut-js");
+keyboard.config.autoDelayMs = 5;
 
-type RenderTpl = (p: { question: Question } & Setting) => void;
+type RenderTpl = (
+  p: {
+    question: Question;
+    msgArray?: MsgArray;
+    inputtedValue?: string;
+  } & Setting
+) => void;
 const renderTpl: RenderTpl = (p) => {
+  const color = p.msgArray ? p.config.errorColor : p.config.color;
+
   const content = table(
     [
       [`${p.questionDictionary.length + 1} questions left.`],
@@ -19,7 +34,7 @@ const renderTpl: RenderTpl = (p) => {
         p.template
           .replace(
             new RegExp(`${p.question.name}`),
-            clc.inverse.bold[p.config.color](p.question.name)
+            clc.inverse.bold[color](p.question.name)
           )
           .replace(new RegExp("{{", "g"), "")
           .replace(new RegExp("}}", "g"), ""),
@@ -35,29 +50,35 @@ const renderTpl: RenderTpl = (p) => {
         content: clc.bold(p.config.templateName),
       },
       border: {
-        topBody: clc[p.config.color](`─`),
-        topJoin: clc[p.config.color](`┬`),
-        topLeft: clc[p.config.color](`┌`),
-        topRight: clc[p.config.color](`┐`),
+        topBody: clc[color](`─`),
+        topJoin: clc[color](`┬`),
+        topLeft: clc[color](`┌`),
+        topRight: clc[color](`┐`),
 
-        bottomBody: clc[p.config.color](`─`),
-        bottomJoin: clc[p.config.color](`┴`),
-        bottomLeft: clc[p.config.color](`└`),
-        bottomRight: clc[p.config.color](`┘`),
+        bottomBody: clc[color](`─`),
+        bottomJoin: clc[color](`┴`),
+        bottomLeft: clc[color](`└`),
+        bottomRight: clc[color](`┘`),
 
-        bodyLeft: clc[p.config.color](`│`),
-        bodyRight: clc[p.config.color](`│`),
-        bodyJoin: clc[p.config.color](`│`),
+        bodyLeft: clc[color](`│`),
+        bodyRight: clc[color](`│`),
+        bodyJoin: clc[color](`│`),
 
-        joinBody: clc[p.config.color](`─`),
-        joinLeft: clc[p.config.color](`├`),
-        joinRight: clc[p.config.color](`┤`),
-        joinJoin: clc[p.config.color](`┼`),
+        joinBody: clc[color](`─`),
+        joinLeft: clc[color](`├`),
+        joinRight: clc[color](`┤`),
+        joinJoin: clc[color](`┼`),
       },
     }
   );
 
   console.log(content);
+  if (Array.isArray(p.msgArray)) {
+    console.log(JSON.stringify(p.msgArray, null, 2));
+  }
+  if (typeof p.inputtedValue === "string") {
+    keyboard.type(p.inputtedValue);
+  }
 };
 
 type QAndA = (p: {
@@ -67,14 +88,19 @@ type QAndA = (p: {
 const qAndA: QAndA = (p) =>
   workFlow
     .prepareQuestions(p)
-    // @ts-expect-error -- fixme
+    // @ts-expect-error -- FIXME
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     .then((v) => inquirer.prompt<WorkFlow.AnswerVO>(v.question as any));
 
 type Clear = () => void;
 export const clear: Clear = console.clear;
 
 type RenderingQnA = (
-  p: { question: Question } & Setting
+  p: {
+    question: Question;
+    msgArray?: MsgArray;
+    inputtedValue?: string;
+  } & Setting
 ) => Promise<WorkFlow.AnswerVO>;
 export const renderingQnA: RenderingQnA = (p) => {
   clear();

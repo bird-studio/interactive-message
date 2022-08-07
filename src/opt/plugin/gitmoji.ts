@@ -11,4 +11,7 @@ type Gitmojis = Array<{
   semver: null | string;
 }>;
 
+/**
+ * https://gitmoji.dev/
+ */
 export const gitmojis = _gitmojis.gitmojis as Gitmojis;

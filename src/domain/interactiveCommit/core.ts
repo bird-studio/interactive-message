@@ -30,6 +30,15 @@ export type Setting = {
       | "magenta"
       | "cyan"
       | "white";
+    errorColor:
+      | "black"
+      | "red"
+      | "green"
+      | "yellow"
+      | "blue"
+      | "magenta"
+      | "cyan"
+      | "white";
   };
 };
 
@@ -40,15 +49,12 @@ export type Setting = {
  */
 export type Answer = string;
 
-/**
- * エラーメッセージ
- */
-type ErrMsg = string;
+export type MsgArray = Array<Record<string, string>>;
 
 type QuestionBase = {
   name: string;
-  message: string;
-  validate?: <T>(input: T) => true | ErrMsg;
+  messageObj: string;
+  exValidate?: <T>(input: T) => true | MsgArray;
   /**
    * 回答の上書き
    */
