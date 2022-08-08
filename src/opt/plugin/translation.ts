@@ -1,8 +1,5 @@
 import * as deepl from "deepl-node";
 
-/**
- * https://github.com/DeepLcom/deepl-node
- */
 export const createTranslator = (p: { authKey: string }) =>
   new deepl.Translator(p.authKey);
 

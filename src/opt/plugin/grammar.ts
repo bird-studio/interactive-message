@@ -4,9 +4,6 @@ const textgears = require("textgears-api");
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 type Fixme = any;
 
-/**
- * https://textgears.com/api
- */
 export const createGrammarApi = (p: { key: string; language: string }) =>
   textgears(p.key, { language: p.language });
 
