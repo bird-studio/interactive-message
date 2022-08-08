@@ -4,6 +4,7 @@ import { getOwner, getRepo, getUserName } from "./plugin/git";
 import { makeDictionary, toAns } from "./plugin/typo";
 import { checkGrammar, createGrammarApi } from "./plugin/grammar";
 import { createTranslator, translateText } from "./plugin/translation";
+import { send } from "./plugin/keyboard";
 
 // ts-prune-ignore-next
 export type { Setting } from "~/domain/interactiveCommit/core";
@@ -16,4 +17,5 @@ export const plugin = {
   typo: { toAns, makeDictionary },
   grammar: { checkGrammar, createGrammarApi },
   translation: { createTranslator, translateText },
+  keyboard: { send },
 };
