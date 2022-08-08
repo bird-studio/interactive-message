@@ -52,7 +52,7 @@ export type Answer = string;
 /**
  * 直前の回答
  */
-export type InputtedAnswer = Answer;
+type InputtedAnswer = Answer;
 
 export type MsgArray = Array<Record<string, string>>;
 
@@ -67,7 +67,7 @@ type QuestionBase = {
   /**
    * 初期値の入力
    */
-  exInitValue?: <T>(input: T) => void;
+  exInitValue?: (input: InputtedAnswer) => void;
   /**
    * 回答の上書き
    */
