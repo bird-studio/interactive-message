@@ -73,11 +73,15 @@ const renderTpl: RenderTpl = (p) => {
   if (Array.isArray(p.msgArray)) {
     console.log(JSON.stringify(p.msgArray, null, 2));
   }
+  // if (typeof p.inputtedValue === "string") {
+  // keyboard.type(p.inputtedValue);
+  // }
 };
 
 type QAndA = (p: {
   question: Question;
   template: Setting["template"];
+  inputtedValue?: string;
 }) => Promise<WorkFlow.AnswerVO>;
 const qAndA: QAndA = (p) =>
   workFlow
