@@ -36,7 +36,6 @@
     "prepare": "git config --local core.hooksPath .githooks"
   },
   "dependencies": {
-    "@nut-tree/nut-js": "2.1.1",
     "@octokit/rest": "19.0.3",
     "cac": "6.7.12",
     "cli-color": "2.0.3",

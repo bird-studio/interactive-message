@@ -14,8 +14,8 @@ import type * as WorkFlow from "~/domain/interactiveCommit/workFlow";
 import * as workFlow from "~/useCase/interactiveCommit/workFlow";
 inquirer.registerPrompt("search-list", inquirerAutocompletePrompt);
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-const { keyboard } = require("@nut-tree/nut-js");
-keyboard.config.autoDelayMs = 5;
+// const { keyboard } = require("@nut-tree/nut-js");
+// keyboard.config.autoDelayMs = 5;
 
 type RenderTpl = (
   p: {
@@ -76,9 +76,9 @@ const renderTpl: RenderTpl = (p) => {
   if (Array.isArray(p.msgArray)) {
     console.log(JSON.stringify(p.msgArray, null, 2));
   }
-  if (typeof p.inputtedValue === "string") {
-    keyboard.type(p.inputtedValue);
-  }
+  // if (typeof p.inputtedValue === "string") {
+  // keyboard.type(p.inputtedValue);
+  // }
 };
 
 type QAndA = (p: {
