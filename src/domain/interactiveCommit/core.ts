@@ -49,16 +49,29 @@ export type Setting = {
  */
 export type Answer = string;
 
+/**
+ * 直前の回答
+ */
+export type InputtedAnswer = Answer;
+
 export type MsgArray = Array<Record<string, string>>;
 
 type QuestionBase = {
   name: string;
   messageObj: string;
+  /**
+   * 入力値の検証
+   * JSON.stringifyでエラーメッセージを表示
+   */
   exValidate?: <T>(input: T) => true | MsgArray;
+  /**
+   * 初期値の入力
+   */
+  exInitValue?: <T>(input: T) => void;
   /**
    * 回答の上書き
    */
-  overwriteAnswer?: (p: Answer) => Promise<Answer>;
+  overwriteAnswer?: (p: string) => Promise<Answer>;
   /**
    * テンプレートの上書き
    *
