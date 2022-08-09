@@ -326,10 +326,10 @@
     textgears-api "1.1.3"
     typo-js "1.2.2"
 
-"@bird-studio/js-config@3.6.0":
-  version "3.6.0"
-  resolved "https://registry.yarnpkg.com/@bird-studio/js-config/-/js-config-3.6.0.tgz#4556726304be599b9339e67732c45abcc8073b45"
-  integrity sha512-JRTTEzjKC6I0H1xU/u2rqrQBaPf8aAB9lAKfRj/qxRFijQUgiu9QPs1vX+RB4/FhfmXi1XfmDY54N167+dhBlQ==
+"@bird-studio/js-config@3.6.1":
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/@bird-studio/js-config/-/js-config-3.6.1.tgz#c9903e3b03f814c0e526b80b1e21153dffe59ebc"
+  integrity sha512-FB5ohfp06ldvoaItIAxUJd9UhtE1uk2PyDpMaH77/tbSE1OCW8QkOkh6ojyP1JN2Aaw76/Bz6wv5uyLc2DXVdQ==
   dependencies:
     cosmiconfig "7.0.1"
 
@@ -5031,9 +5031,9 @@ just-diff-apply@^5.2.0:
   integrity sha512-nXI6VsJ3Z+9+qC4LYmxmvs40LY9VwYkACSCxD9lctd2nEtf+Jdf7lbkPuGycnu53gVoIACpPhOJ+8nZYRK9Gcw==
 
 just-diff@^5.0.1:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/just-diff/-/just-diff-5.1.0.tgz#b916c4428cb65c066cda57e1b4851348c4d97ddc"
-  integrity sha512-Rb0cKJWEOL8/YdXIBYqaWvXjp7VSDRWoGRdlTgP3wy3vdMwhAmLS6QJL26UeS/UDUlScem7NpQCJyY8chl5/3g==
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/just-diff/-/just-diff-5.1.1.tgz#8da6414342a5ed6d02ccd64f5586cbbed3146202"
+  integrity sha512-u8HXJ3HlNrTzY7zrYYKjNEfBlyjqhdBkoyTVdjtn7p02RJD5NvR8rIClzeGA7t+UYP1/7eAkWNLU0+P3QrEqKQ==
 
 kind-of@^6.0.3:
   version "6.0.3"
