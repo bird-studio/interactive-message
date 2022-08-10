@@ -2870,6 +2870,16 @@ deepl-node@1.3.1:
     form-data "^3.0.0"
     loglevel ">=1.6.2"
 
+deepl-node@1.4.0:
+  version "1.4.0"
+  resolved "https://registry.yarnpkg.com/deepl-node/-/deepl-node-1.4.0.tgz#a001d14e4809cb8c3ac1f4f4c7e25c782e7ff1e7"
+  integrity sha512-DBRG+HXrdzKPC+LiZR5qpCymjuckQq92xFAKoicNFpZUXNFpWNLF9wPAvv958dUad4Gb5cbqNuUOzW3MqP7Zbw==
+  dependencies:
+    "@types/node" ">=12.0"
+    axios ">=0.21.2"
+    form-data "^3.0.0"
+    loglevel ">=1.6.2"
+
 deepmerge@^4.2.2:
   version "4.2.2"
   resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-4.2.2.tgz#44d2ea3679b8f4d4ffba33f03d865fc1e7bf4955"
