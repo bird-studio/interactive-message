@@ -1044,15 +1044,15 @@
   resolved "https://registry.yarnpkg.com/@npmcli/ci-detect/-/ci-detect-2.0.0.tgz#e63c91bcd4185ac1e85720a34fc48e164ece5b89"
   integrity sha512-8yQtQ9ArHh/TzdUDKQwEvwCgpDuhSWTDAbiKMl3854PcT+Dk4UmWaiawuFTLy9n5twzXOBXVflWe+90/ffXQrA==
 
-"@npmcli/config@^4.2.0":
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/@npmcli/config/-/config-4.2.0.tgz#62b5d2b9cbf93fb2bc9f7cc947f25d7659ef849f"
-  integrity sha512-imWNz5dNWb2u+y41jyxL2WB389tkhu3a01Rchn16O/ur6GrnKySgOqdNG3N/9Z+mqxdISMEGKXI/POCauzz0dA==
+"@npmcli/config@^4.2.1":
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/@npmcli/config/-/config-4.2.1.tgz#7a4b46f4a315fe369a3f8543c67fae0b89549a40"
+  integrity sha512-iJEnXNAGGr7sGUcoKmeJNrc943vFiWrDWq6DNK/t+SuqoObmozMb3tN3G5T9yo3uBf5Cw4h+SWgoqSaiwczl0Q==
   dependencies:
     "@npmcli/map-workspaces" "^2.0.2"
     ini "^3.0.0"
     mkdirp-infer-owner "^2.0.0"
-    nopt "^5.0.0"
+    nopt "^6.0.0"
     proc-log "^2.0.0"
     read-package-json-fast "^2.0.3"
     semver "^7.3.5"
@@ -1157,7 +1157,7 @@
     postcss-selector-parser "^6.0.10"
     semver "^7.3.7"
 
-"@npmcli/run-script@^4.1.0", "@npmcli/run-script@^4.1.3", "@npmcli/run-script@^4.2.0":
+"@npmcli/run-script@^4.1.0", "@npmcli/run-script@^4.1.3", "@npmcli/run-script@^4.2.0", "@npmcli/run-script@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@npmcli/run-script/-/run-script-4.2.1.tgz#c07c5c71bc1c70a5f2a06b0d4da976641609b946"
   integrity sha512-7dqywvVudPSrRCW5nTHpHgeWnbBtz8cFkOuKrecm6ih+oO9ciydhWt6OF7HlqupRRmB8Q/gECVdB9LMfToJbRg==
@@ -5731,7 +5731,7 @@ node-fetch@^2.6.7:
   dependencies:
     whatwg-url "^5.0.0"
 
-node-gyp@^9.0.0:
+node-gyp@^9.0.0, node-gyp@^9.1.0:
   version "9.1.0"
   resolved "https://registry.yarnpkg.com/node-gyp/-/node-gyp-9.1.0.tgz#c8d8e590678ea1f7b8097511dedf41fc126648f8"
   integrity sha512-HkmN0ZpQJU7FLbJauJTHkHlSVAXlNGDAzH/VYFZGDOnFyn/Na3GlNJfkudmufOdS6/jNFhy88ObzL7ERz9es1g==
@@ -5923,18 +5923,18 @@ npm-user-validate@^1.0.1:
   integrity sha512-uQwcd/tY+h1jnEaze6cdX/LrhWhoBxfSknxentoqmIuStxUExxjWd3ULMLFPiFUrZKbOVMowH6Jq2FRWfmhcEw==
 
 npm@^8.3.0:
-  version "8.16.0"
-  resolved "https://registry.yarnpkg.com/npm/-/npm-8.16.0.tgz#d385060093f3af10fabe6d8205d41bbf2a34ff9d"
-  integrity sha512-UfLT/hCbcpV9uiTEBthyrOlQxwk8LG5tAGn283g7f7pRx41KcwFiHV7HYgYm2y2GabfnPtf897ptrXRQwxJWzQ==
+  version "8.17.0"
+  resolved "https://registry.yarnpkg.com/npm/-/npm-8.17.0.tgz#05c77fb2794daa3d9b2cd0460859f1f9dc596676"
+  integrity sha512-tIcfZd541v86Sqrf+t/GW6ivqiT8b/2b3EAjNw3vRe+eVnL4mlkVwu17hjCOrsPVntLb5C6tQG4jPUE5Oveeyw==
   dependencies:
     "@isaacs/string-locale-compare" "^1.1.0"
     "@npmcli/arborist" "^5.0.4"
     "@npmcli/ci-detect" "^2.0.0"
-    "@npmcli/config" "^4.2.0"
+    "@npmcli/config" "^4.2.1"
     "@npmcli/fs" "^2.1.0"
     "@npmcli/map-workspaces" "^2.0.3"
     "@npmcli/package-json" "^2.0.0"
-    "@npmcli/run-script" "^4.2.0"
+    "@npmcli/run-script" "^4.2.1"
     abbrev "~1.1.1"
     archy "~1.0.0"
     cacache "^16.1.1"
@@ -5968,8 +5968,8 @@ npm@^8.3.0:
     mkdirp "^1.0.4"
     mkdirp-infer-owner "^2.0.0"
     ms "^2.1.2"
-    node-gyp "^9.0.0"
-    nopt "^5.0.0"
+    node-gyp "^9.1.0"
+    nopt "^6.0.0"
     npm-audit-report "^3.0.0"
     npm-install-checks "^5.0.0"
     npm-package-arg "^9.1.0"
