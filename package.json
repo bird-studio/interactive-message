@@ -37,7 +37,7 @@
   },
   "dependencies": {
     "@nut-tree/nut-js": "2.1.1",
-    "@octokit/rest": "19.0.3",
+    "@octokit/rest": "19.0.4",
     "cac": "6.7.12",
     "cli-color": "2.0.3",
     "cosmiconfig": "7.0.1",
