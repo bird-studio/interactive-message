@@ -76,3 +76,14 @@ git commit
 
 exec < /dev/tty && npx interactive-message commit
 ```
+
+## Translation Functions
+
+.env
+```bash
+# https://textgears.com/ja/signup?shutupandgiveme=thekey
+GRAMMAR_API_KEY=
+
+# https://www.deepl.com/ja/account/summary
+DEEPL_AUTH_KEY=
+```
