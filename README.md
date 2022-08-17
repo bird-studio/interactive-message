@@ -81,9 +81,9 @@ exec < /dev/tty && npx interactive-message commit
 
 .env
 ```bash
-# https://textgears.com/ja/signup?shutupandgiveme=thekey
+# https://textgears.com/signup?shutupandgiveme=thekey
 GRAMMAR_API_KEY=
 
-# https://www.deepl.com/ja/account/summary
+# https://www.deepl.com/account/summary
 DEEPL_AUTH_KEY=
 ```
