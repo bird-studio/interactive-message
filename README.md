@@ -80,6 +80,7 @@ exec < /dev/tty && npx interactive-message commit
 ## Translation Functions
 
 .env
+
 ```bash
 # https://textgears.com/signup?shutupandgiveme=thekey
 GRAMMAR_API_KEY=
