@@ -21,6 +21,10 @@ export const checkGrammar = (p: { grammarApi: Fixme; txt: string }) =>
         return v;
       }
 
+      if (typeof v.data?.response?.errors === "undefined") {
+        return { isFailure: true, error: v };
+      }
+
       return v.data.response.errors.map((err: Fixme) => ({
         descriptionEn: err.description.en,
         bad: err.bad,
