@@ -77,14 +77,7 @@ git commit
 exec < /dev/tty && npx interactive-message commit
 ```
 
-## Translation Functions
+## Localization
 
-.env
-
-```bash
-# https://textgears.com/signup?shutupandgiveme=thekey
-GRAMMAR_API_KEY=
-
-# https://www.deepl.com/account/summary
-DEEPL_AUTH_KEY=
-```
+- [grammar](https://github.com/bird-studio/interactive-message/blob/main/src/opt/plugin/grammar.ts)
+- [translation](https://github.com/bird-studio/interactive-message/blob/main/src/opt/plugin/translation.ts)
