@@ -56,6 +56,6 @@ describe("prepareQuestions", () => {
     expect(() =>
       //@ts-expect-error
       prepareQuestions({ question: { type: "" } }, "")
-    ).toThrowError();
+    ).toThrow();
   });
 });
