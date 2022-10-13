@@ -3004,10 +3004,10 @@ deepl-node@1.6.0:
     form-data "^3.0.0"
     loglevel ">=1.6.2"
 
-deepl-node@1.7.0:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/deepl-node/-/deepl-node-1.7.0.tgz#9ca8846020039b23d7f9cad5606a6dee03491890"
-  integrity sha512-Mv1jxE3aMf/9/f/9cqh1IJnX78GYdI2gMfGwCmAJYaiwfBr8HnsqfUydxmBiEdLeE+S7DAFCqT/13ojeaCWvSA==
+deepl-node@1.7.1:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/deepl-node/-/deepl-node-1.7.1.tgz#b43d6ed866786e140b84b259a6df7476a333f961"
+  integrity sha512-ugd8S6VM/uDqFIeMt7Io7Cei6ckrvhY4xR4qrdMuG2XLZ/mO2jVlQ2XnuFjTI2PIVMkodMGe4kMCtIZlzi/5Qg==
   dependencies:
     "@types/node" ">=12.0"
     axios ">=0.21.2"
