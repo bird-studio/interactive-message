@@ -6861,9 +6861,9 @@ pkg-dir@^4.2.0:
     find-up "^4.0.0"
 
 plimit-lit@^1.2.6:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/plimit-lit/-/plimit-lit-1.4.0.tgz#391d4635773e46165239f09b8b998051600aace2"
-  integrity sha512-e4VKIdzc5+vvTuNZeWDTWHCNPLZ1+jXeQ9HqZhAS+vlAodNr8A26IcTA9OudjLXj8fV+KRW/ZzsoyrTZzoWD/A==
+  version "1.4.1"
+  resolved "https://registry.yarnpkg.com/plimit-lit/-/plimit-lit-1.4.1.tgz#7d6259e3cb2a341b38bb6ca343869e44ae0d5d38"
+  integrity sha512-bK14ePAod0XWhXwjT6XvYfjcQ9PbCUkZXnDCAKRMZTJCaDIV9VFya1S/I+3WSbpdR8uBhCDh8TS4lQ/JQvhNFA==
   dependencies:
     queue-lit "^1.4.0"
 
