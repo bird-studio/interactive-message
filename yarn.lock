@@ -1498,9 +1498,9 @@
     read-pkg-up "^7.0.0"
 
 "@sinclair/typebox@^0.24.1":
-  version "0.24.47"
-  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.47.tgz#530b67163714356f93e82bdb871e7db4b7bc564e"
-  integrity sha512-J4Xw0xYK4h7eC34MNOPQi6IkNxGRck6n4VJpWDzXIFVTW8I/D43Gf+NfWz/v/7NHlzWOPd3+T4PJ4OqklQ2u7A==
+  version "0.24.50"
+  resolved "https://registry.yarnpkg.com/@sinclair/typebox/-/typebox-0.24.50.tgz#35ee4db4ab8f3a8ff56490c51f92445d2776451e"
+  integrity sha512-k8ETQOOQDg5FtK7y9KJWpsGLik+QlPmIi8zzl/dGUgshV2QitprkFlCR/AemjWOTyKn9UwSSGRTzLVotvgCjYQ==
 
 "@sinonjs/commons@^1.7.0":
   version "1.8.3"
@@ -1651,10 +1651,10 @@
   resolved "https://registry.yarnpkg.com/@types/minimist/-/minimist-1.2.2.tgz#ee771e2ba4b3dc5b372935d549fd9617bf345b8c"
   integrity sha512-jhuKLIRrhvCPLqwPcx6INqmKeiA5EWrsCOPhrlFSrbrmU4ZMPjj5Ul/oLCMDO98XRUIwVm78xICz4EPCektzeQ==
 
-"@types/node@*", "@types/node@>=12.0":
-  version "18.11.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.2.tgz#c59b7641832531264fda3f1ba610362dc9a7dfc8"
-  integrity sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw==
+"@types/node@*":
+  version "18.11.5"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.5.tgz#1bc94cf2f9ab5fe33353bc7c79c797dcc5325bef"
+  integrity sha512-3JRwhbjI+cHLAkUorhf8RnqUbFXajvzX4q6fMn5JwkgtuwfYtRQYI3u4V92vI6NJuTsbBQWWh3RZjFsuevyMGQ==
 
 "@types/node@16.9.1":
   version "16.9.1"
@@ -1665,6 +1665,11 @@
   version "18.8.5"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-18.8.5.tgz#6a31f820c1077c3f8ce44f9e203e68a176e8f59e"
   integrity sha512-Bq7G3AErwe5A/Zki5fdD3O6+0zDChhg671NfPjtIcbtzDNZTv4NPKMRFr7gtYPG7y+B8uTiNK4Ngd9T0FTar6Q==
+
+"@types/node@>=12.0":
+  version "18.11.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.11.2.tgz#c59b7641832531264fda3f1ba610362dc9a7dfc8"
+  integrity sha512-BWN3M23gLO2jVG8g/XHIRFWiiV4/GckeFIqbU/C4V3xpoBBWSMk4OZomouN0wCkfQFPqgZikyLr7DOYDysIkkw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.1"
@@ -4921,16 +4926,16 @@ jest-resolve-dependencies@^29.2.0:
     jest-snapshot "^29.2.0"
 
 jest-resolve@^29.2.0, jest-resolve@^29.2.1:
-  version "29.2.1"
-  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.2.1.tgz#a4d2f76db88aeb6ec5f5453c9a40b52483d17799"
-  integrity sha512-1dJTW76Z9622Viq4yRcwBuEXuzGtE9B2kdl05RC8Om/lAzac9uEgC+M8Q5osVidbuBPmxm8wSrcItYhca2ZAtQ==
+  version "29.2.2"
+  resolved "https://registry.yarnpkg.com/jest-resolve/-/jest-resolve-29.2.2.tgz#ad6436053b0638b41e12bbddde2b66e1397b35b5"
+  integrity sha512-3gaLpiC3kr14rJR3w7vWh0CBX2QAhfpfiQTwrFPvVrcHe5VUBtIXaR004aWE/X9B2CFrITOQAp5gxLONGrk6GA==
   dependencies:
     chalk "^4.0.0"
     graceful-fs "^4.2.9"
     jest-haste-map "^29.2.1"
     jest-pnp-resolver "^1.2.2"
     jest-util "^29.2.1"
-    jest-validate "^29.2.1"
+    jest-validate "^29.2.2"
     resolve "^1.20.0"
     resolve.exports "^1.1.0"
     slash "^3.0.0"
@@ -5032,10 +5037,10 @@ jest-util@^29.0.0, jest-util@^29.2.0, jest-util@^29.2.1:
     graceful-fs "^4.2.9"
     picomatch "^2.2.3"
 
-jest-validate@^29.2.0, jest-validate@^29.2.1:
-  version "29.2.1"
-  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-29.2.1.tgz#db814ce12c4c7e4746044922762e56eb177d066c"
-  integrity sha512-DZVX5msG6J6DL5vUUw+++6LEkXUsPwB5R7fsfM7BXdz2Ipr0Ib046ak+8egrwAR++pvSM/5laxLK977ieIGxkQ==
+jest-validate@^29.2.0, jest-validate@^29.2.1, jest-validate@^29.2.2:
+  version "29.2.2"
+  resolved "https://registry.yarnpkg.com/jest-validate/-/jest-validate-29.2.2.tgz#e43ce1931292dfc052562a11bc681af3805eadce"
+  integrity sha512-eJXATaKaSnOuxNfs8CLHgdABFgUrd0TtWS8QckiJ4L/QVDF4KVbZFBBOwCBZHOS0Rc5fOxqngXeGXE3nGQkpQA==
   dependencies:
     "@jest/types" "^29.2.1"
     camelcase "^6.2.0"
