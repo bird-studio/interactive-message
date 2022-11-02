@@ -46,7 +46,7 @@
     "ini": "3.0.1",
     "inquirer": "~8",
     "inquirer-search-list": "1.2.6",
-    "table": "6.8.0",
+    "table": "6.8.1",
     "textgears-api": "1.1.3",
     "typo-js": "1.2.2"
   },
