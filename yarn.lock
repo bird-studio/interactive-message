@@ -5280,11 +5280,11 @@ libnpmexec@^4.0.12:
     walk-up-path "^1.0.0"
 
 libnpmfund@^3.0.3:
-  version "3.0.4"
-  resolved "https://registry.yarnpkg.com/libnpmfund/-/libnpmfund-3.0.4.tgz#be1fd46bcfa9432660f98d935135d7ee3e620239"
-  integrity sha512-azKUVFkL27AsvzEzLKMHX/L8j/GE2TL6eZ6KIdc9hsvleoNLT+Y6XO9w9v7JWwg03smZK9dbqwvnYZzO3vzrIA==
+  version "3.0.5"
+  resolved "https://registry.yarnpkg.com/libnpmfund/-/libnpmfund-3.0.5.tgz#817f9e2120889beb483d9ba8eda142bb84293e4e"
+  integrity sha512-KdeRoG/dem8H3PcEU2/0SKi3ip7AWwczgS72y/3PE+PBrz/s/G52FNIA9jeLnBirkLC0sOyQHfeM3b7e24ZM+g==
   dependencies:
-    "@npmcli/arborist" "^5.6.2"
+    "@npmcli/arborist" "^5.6.3"
 
 libnpmhook@^8.0.4:
   version "8.0.4"
