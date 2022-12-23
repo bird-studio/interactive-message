@@ -42,7 +42,7 @@
     "cli-color": "2.0.3",
     "cosmiconfig": "8.0.0",
     "deepl-node": "1.7.2",
-    "gitmojis": "3.13.0",
+    "gitmojis": "3.13.1",
     "ini": "3.0.1",
     "inquirer": "~8",
     "inquirer-search-list": "1.2.6",

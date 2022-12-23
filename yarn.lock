@@ -3943,6 +3943,11 @@ gitmojis@3.13.0:
   resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.13.0.tgz#4723017832f0b97b284a1aed32cc384cc35f2c7e"
   integrity sha512-vBRPLpEakxS6oJrX7IoJqEEigNFgXdLCnGv9EaH0+txozhpvat+PvdDH3h+mM4adgGAA932Za3Hgeupt5/XqyQ==
 
+gitmojis@3.13.1:
+  version "3.13.1"
+  resolved "https://registry.yarnpkg.com/gitmojis/-/gitmojis-3.13.1.tgz#0bc1111611b3adc726f7ba8a4b1c25fbc457a449"
+  integrity sha512-HA9iV+NBT8UR3T8LlUgPtvMKcBJa7RKenljoJhScWT/0gaggeQtyqXbPzLTv3u6BptTNOdadFDV5PiXMUDn2+g==
+
 glob-parent@^5.1.2, glob-parent@~5.1.2:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/glob-parent/-/glob-parent-5.1.2.tgz#869832c58034fe68a4093c17dc15e8340d8401c4"
