@@ -18,6 +18,10 @@
 
 # interactive-message
 
+## Alternative
+
+https://github.com/bird-studio/hoipoi_capsule
+
 ## Overview
 
 Create messages in an interactive format.
