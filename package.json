@@ -41,7 +41,7 @@
     "cac": "6.7.14",
     "cli-color": "2.0.3",
     "cosmiconfig": "8.0.0",
-    "deepl-node": "1.7.3",
+    "deepl-node": "1.7.4",
     "gitmojis": "3.13.2",
     "ini": "3.0.1",
     "inquirer": "~8",
