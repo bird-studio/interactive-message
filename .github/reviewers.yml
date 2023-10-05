@@ -1,16 +1,6 @@
 # https://github.com/necojackarc/auto-request-review#auto-assign-reviewers-based-on-the-author
 
 reviewers:
-  groups:
-    engineers:
-      - engineer_a
-      - engineer_b
-
   per_author:
-    engineers:
-      - engineers
-    designer_a:
-      - lead_designer
-    designer_b:
-      - lead_desinger
-      - desinger_a
+    akira-toriyama:
+      - akira-toriyama
