@@ -25,7 +25,7 @@ name: Hello World
 
 on:
   pull_request:
-    types: [opened, ready_for_review, reopened]
+    types: [opened, ready_for_review]
 
 jobs:
   say_hello:
