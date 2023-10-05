@@ -6,12 +6,7 @@ on: push
 #     types: [opened, ready_for_review, reopened]
 
 jobs:
-  say_hello:
-    runs-on: ubuntu-latest
-    steps:
-      - run: echo "Hello World!"
   auto-request-review:
-    name: Auto Request Review
     runs-on: ubuntu-latest
     steps:
       - name: Request review based on files changes and/or groups the author belongs to
