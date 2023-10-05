@@ -87,5 +87,3 @@ exec < /dev/tty && npx interactive-message commit
 
 - [grammar](https://github.com/bird-studio/interactive-message/blob/main/src/opt/plugin/grammar.ts)
 - [translation](https://github.com/bird-studio/interactive-message/blob/main/src/opt/plugin/translation.ts)
-
-test
